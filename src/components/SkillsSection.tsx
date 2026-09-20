@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
-import {
-  Sparkles,
-} from 'lucide-react';
 import { SKILLS_DATA } from '../data/portfolioData';
 import type { SkillItem } from '../types';
-
+type SkillCategory =
+  | 'all'
+  | 'languages'
+  | 'software'
+  | 'programming'
+  | 'professional';
 export const SkillsSection: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState<'all'  | 'languages' | 'software' | 'programming' | 'professional'>('all');
+  const [selectedCategory, setSelectedCategory] = useState<SkillCategory>('all');
 
-  const categories = [
+  const categories:{
+    key: SkillCategory;
+    label: string;
+    count: number;
+  }[] = [
   {
     key: 'all',
     label: 'همه مهارت‌ها',
