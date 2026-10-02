@@ -589,6 +589,14 @@ export const PROJECT_WEBSITES: ProjectPreview[] = [
     previewImage: '/Background_remover.png',
     categoryBadge: 'ابزار پردازش تصویر با هوش مصنوعی',
     colorAccent: '#42382e'
+  },
+  {
+    id: 'archa',
+    title: 'Archa 3D view',
+    url: 'https://archa-coral.vercel.app/',
+    previewImage: '/Archa.png',
+    categoryBadge: 'ابزار سه بعدی‌سازی طراحی معماری داخلی با هوش مصنوغی',
+    colorAccent: '#42382e'
   }
 ];
 
