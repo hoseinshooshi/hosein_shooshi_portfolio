@@ -412,7 +412,7 @@ export const DRIVE_CATEGORIES: DriveCategory[] = [
     description:
       'مجموعه اتودها و طرح‌های اولیه طراحی لوگو که مراحل ایده‌پردازی، بررسی فرم و توسعه کانسپت‌های بصری را نشان می‌دهد.',
     folderUrl: 'https://drive.google.com/drive/folders/19Iw21P-EU7Y4hK2R28vCsj1bAR6bQSnK?usp=sharing',
-    fileCountText: '۱۳ فایل اتود طراحی لوگو',
+    fileCountText: '15 فایل اتود طراحی لوگو',
     tags: ['طراحی لوگو', 'اتود', 'هویت بصری', 'ایده‌پردازی'],
     coverGradient: 'from-[#66493e] to-[#42382e]',
     iconName: 'PenTool'
@@ -596,6 +596,14 @@ export const PROJECT_WEBSITES: ProjectPreview[] = [
     url: 'https://archa-coral.vercel.app/',
     previewImage: '/Archa.png',
     categoryBadge: 'ابزار سه بعدی‌سازی طراحی معماری داخلی با هوش مصنوغی',
+    colorAccent: '#42382e'
+  }, 
+  {
+    id: 'Papyrus',
+    title: 'Papyrus Task And Notes',
+    url: 'https://papyrus-note-android.vercel.app/',
+    previewImage: '/Papyrus.png',
+    categoryBadge: 'نرم افزار نوت‌نویسی و تسک‌ها  به همراه تایمر پومودورو',
     colorAccent: '#42382e'
   }
 ];
